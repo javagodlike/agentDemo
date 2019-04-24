@@ -118,9 +118,9 @@ Time consumed (nano sec): 168807
 #### 具体运行步骤如下：
 1. mvn clean install
 1. 静态加载方式
-  1. AtmClient的VM options 增加-javaagent:StaticAgent/target/agent.jar=XXX
-  1. 运行AtmClient，可以看到静态加载方式的运行结果
+   1. AtmClient的VM options 增加-javaagent:StaticAgent/target/agent.jar=XXX
+   1. 运行AtmClient，可以看到静态加载方式的运行结果
 3. 动态加载方式
-  1. 移除AtmClient的VM options
-  1. 运行AtmClient
-  1. 运行AttachTest
+   1. 移除AtmClient的VM options
+   1. 运行AtmClient
+   1. 运行AttachTest
